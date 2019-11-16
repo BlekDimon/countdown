@@ -1,0 +1,95 @@
+@font-face {
+    font-family: WorkSans;
+    src: url(font/WorkSans-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "WorkSans", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 16vh;
+}
+
+body {
+    background: #000000;
+    overflow: hidden;
+}
+
+main {
+    width: fit-content;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+main div span:nth-child(2) {
+    margin-left: 7.5%;
+    font-size: 4vh;
+}
+
+#age {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 3vh;
+    height: 18vh;
+    width: 30vh;
+}
+
+#day {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 22vh;
+    height: 16vh;
+    width: 30vh;
+}
+
+#hour {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 41vh;
+    height: 16vh;
+    width: 30vh;
+}
+
+#min {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 60vh;
+    height: 15vh;
+    width: 30vh;
+}
+
+#sec {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 79vh;
+    height: 14vh;
+    width: 30vh;
+}
+
+select {
+    opacity: 0;
+}
+
+select option {
+    color: black;
+    font-size: 3vh;
+}
+
+.stop {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100vw;
+    height: 7vh;
+    background: gray;
+    opacity: 0;
+}
